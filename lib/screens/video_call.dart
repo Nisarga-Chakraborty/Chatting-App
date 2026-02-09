@@ -15,10 +15,9 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
   bool _localUserJoined = false;
   bool _isLoading = true;
 
-  final String appId = "abc397b17b114396ba339e6f8fb0e585";
+  final String appId = "YOUR_APP_ID";
   final String channelName = "studenthub_channel";
-  final String token =
-      "007eJxTYChhmWzrL3bIofVVTpiljxav172IzDcT59fcnjZJtGfhq6UKDIlJycaW5kmGQGRoYmxplpRobGyZapZmkZZkkGpqYXrQuSOzIZCRYbtwHgsjAwSC+EIMxSWlKal5JRmlSfHJGYl5eak5DAwA2QYkYg==";
+  final String token ="YOUR_TOKEN";
 
   @override
   void initState() {
@@ -283,3 +282,4 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
     );
   }
 }
+
