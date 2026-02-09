@@ -20,10 +20,9 @@ class _VoiceCallScreenState extends State<VoiceCallScreen> {
   Timer? _callTimer;
   int _callDuration = 0;
 
-  final String appId = "abc397b17b114396ba339e6f8fb0e585";
+  final String appId = "YOUR_APP_ID";
   final String channelName = "studenthub_voice_channel";
-  final String token =
-      "007eJxTYChhmWzrL3bIofVVTpiljxav172IzDcT59fcnjZJtGfhq6UKDIlJycaW5kmGQGRoYmxplpRobGyZapZmkZZkkGpqYXrQuSOzIZCRYbtwHgsjAwSC+EIMxSWlKal5JRmlSfHJGYl5eak5DAwA2QYkYg==";
+  final String token = "YOUR_TOKEN";
 
   @override
   void initState() {
